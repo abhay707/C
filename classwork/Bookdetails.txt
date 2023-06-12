@@ -1,0 +1,1 @@
+abhay chaturvedi hii hello'3 cd "e:\codes\c codes\classwork\"; if ($?) {gcc tempCodeRunnerFile.c -o tempCodeRunnerFile} ; if ($?){ .\tempCodeRunnerFile } cd"e:\codes\c codes\classwork\" ; if($?) { gcc tempCodeRunnerFile.co tempCodeRunnerFile } ;if ($?) { .\tempCodeRunnerFile} cd "e:\codes\c codes\classwork\"; if ($?) {gcc pointers.c -o pointers} ; if ($?)
