@@ -143,22 +143,47 @@
 
 //wap to count the number of odd numbers in an array
 
-void odd_no(int number[],int n);
+// void odd_no(int number[],int n);
+
+// int main(){
+
+//     int number[5] = {1,2,3,4,5,6};
+//     odd_no(number,5);
+    
+//     return 0;
+// }
+
+// void odd_no(int number[],int n){
+//     int count = 0;
+//     for (int i = 0; i < n; i++)
+//     {
+//         if (number[n]%2!=0);
+//         {
+//             printf("Odd");
+//         }
+// }
+
+// int main(){
+//     int arr[] = {1,2,3,4,6,7,45,633,43};
+//     for (int i = 0; i < 9; i++)
+//     {
+//         if(arr[i] > 25)
+//         {
+//             printf("%d\n",arr[i]);
+//         }
+//     }
+    
+// }
 
 int main(){
-
-    int number[5] = {1,2,3,4,5,6};
-    odd_no(number,5);
-    
-    return 0;
-}
-
-void odd_no(int number[],int n){
-    int count = 0;
-    for (int i = 0; i < n; i++)
+    int arr[] = {1,654,3,43,53,67,74,200,34,122,44};
+    for (int i = 0; i < 10; i++)
     {
-        if (number[n]%2!=0);
-        {
-            printf("Odd");
-        }
+            if (arr[i]>9 && arr[i]<100)
+            {
+               printf("%d\n",arr[i]); 
+            }
+            
+    }
+    
 }
